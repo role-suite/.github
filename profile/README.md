@@ -86,11 +86,6 @@ dart pub get
 dart bin/main.dart
 ```
 
-## Links
-
-- [Website](https://role-client.demo.epistola.app) *(coming soon)*
-- [Discord](https://discord.gg/role) *(coming soon)*
-
 ---
 
-<p align="center">Built with ❤️ for API developers</p>
+<p align="center">Built with ❤️ for developers</p>
