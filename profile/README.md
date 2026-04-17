@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Open-source API testing client with optional cloud backend</strong>
+  <strong>Open-source API testing client with optional backend</strong>
 </p>
 
 <p align="center">
