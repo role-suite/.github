@@ -86,6 +86,17 @@ dart pub get
 dart bin/main.dart
 ```
 
+## Community & Governance
+
+For organization-wide contribution and community standards, see:
+
+- [Security policy](https://github.com/role-suite/.github/blob/main/SECURITY.md)
+- [Support policy](https://github.com/role-suite/.github/blob/main/SUPPORT.md)
+- [Code of Conduct](https://github.com/role-suite/.github/blob/main/CODE_OF_CONDUCT.md)
+- [Pull request template](https://github.com/role-suite/.github/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
+
+Issue and pull request templates are managed centrally from the [`role-suite/.github`](https://github.com/role-suite/.github) repository.
+
 ---
 
 <p align="center">Built with ❤️ for developers</p>
