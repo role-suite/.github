@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Open-source API testing client with optional backend</strong>
+  <strong>Open-source API testing platform with optional backend and official SDK</strong>
 </p>
 
 <p align="center">
@@ -21,6 +21,8 @@
 
 **Röle** is a modern, cross-platform API testing client built with Flutter. It supports both local mode (store collections locally) and cloud mode (connect to a backend for team collaboration).
 
+To support integrations and automation, the organization also maintains an official TypeScript SDK.
+
 ## Repositories
 
 | Repository | Description |
@@ -28,6 +30,7 @@
 | [role-client](https://github.com/role-suite/role-client) | Flutter desktop/mobile app - API testing client |
 | [role-node](https://github.com/role-suite/role-node) | Node.js/Express backend (TypeScript) |
 | [role-serverpod](https://github.com/role-suite/role-serverpod) | Dart/Serverpod backend (native RPC) |
+| [role-sdk](https://github.com/role-suite/role-sdk) | Official TypeScript SDK for integrating with Röle APIs |
 
 ## Backend Options
 
@@ -84,6 +87,14 @@ git clone https://github.com/role-suite/role-serverpod.git
 cd role-serverpod/relay_server_server
 dart pub get
 dart bin/main.dart
+```
+
+### SDK (TypeScript)
+
+```bash
+git clone https://github.com/role-suite/role-sdk.git
+cd role-sdk
+npm install
 ```
 
 ## Community & Governance
