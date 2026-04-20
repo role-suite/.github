@@ -1,0 +1,41 @@
+name: Feature request
+description: Suggest an improvement or new capability
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What problem are you trying to solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe your preferred solution.
+    validations:
+      required: true
+
+  - type: input
+    id: repository
+    attributes:
+      label: Target repository
+      placeholder: role-client, role-node, or role-serverpod
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Optional alternatives you've considered.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Include references, screenshots, or links.
