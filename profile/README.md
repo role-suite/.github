@@ -38,7 +38,7 @@ You can use Röle with either backend:
 
 ### role-node (Express + TypeScript)
 
-- **Stack**: Node.js, Express 5, TypeScript, Prisma, PostgreSQL
+- **Stack**: Node.js, Express 5, TypeScript, PostgreSQL
 - **API Style**: REST
 - **Best for**: Teams familiar with Node.js/Express, need REST API compatibility
 
