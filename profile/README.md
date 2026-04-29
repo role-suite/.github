@@ -23,14 +23,14 @@
 
 To support integrations and automation, the organization also maintains an official TypeScript SDK.
 
-For contract governance, `role-node` is the primary API contract source for REST integrations.
+For contract governance, `role-node` is the primary API contract source for REST and gRPC integrations.
 
 ## Repositories
 
 | Repository | Description |
 |------------|-------------|
 | [role-client](https://github.com/role-suite/role-client) | Flutter desktop/mobile app - API testing client |
-| [role-node](https://github.com/role-suite/role-node) | Primary Node.js/Express backend (TypeScript, REST) |
+| [role-node](https://github.com/role-suite/role-node) | Primary Node.js/Express backend (TypeScript, REST + gRPC) |
 | [role-serverpod](https://github.com/role-suite/role-serverpod) | Alternative Dart/Serverpod backend (typed RPC) |
 | [role-sdk](https://github.com/role-suite/role-sdk) | Official TypeScript SDK (primary support: `role-node`) |
 
@@ -40,9 +40,9 @@ Röle can connect to either backend depending on your stack and deployment goals
 
 ### role-node (Express + TypeScript)
 
-- **Stack**: Node.js, Express 5, TypeScript, PostgreSQL
-- **API Style**: REST
-- **Best for**: Teams familiar with Node.js/Express that need REST API compatibility
+- **Stack**: Node.js, Express 5, TypeScript, PostgreSQL, gRPC
+- **API Style**: REST + gRPC
+- **Best for**: Teams familiar with Node.js/Express that need REST compatibility and gRPC support
 
 ### role-serverpod (Dart + Serverpod)
 
@@ -60,7 +60,7 @@ Röle can connect to either backend depending on your stack and deployment goals
 | Environments | ✓ | ✓ |
 | Request Runs | ✓ | ✓ |
 | Import/Export | ✓ | ✓ |
-| API Style | REST | Typed RPC |
+| API Style | REST + gRPC | Typed RPC |
 | Stack | Express + TypeScript | Serverpod + Dart |
 
 ## Getting Started
