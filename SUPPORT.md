@@ -11,6 +11,7 @@
 - `https://github.com/role-suite/role-client`
 - `https://github.com/role-suite/role-node`
 - `https://github.com/role-suite/role-serverpod`
+- `https://github.com/role-suite/role-sdk`
 
 ## Security concerns
 

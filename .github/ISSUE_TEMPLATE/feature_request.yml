@@ -24,7 +24,7 @@ body:
     id: repository
     attributes:
       label: Target repository
-      placeholder: role-client, role-node, or role-serverpod
+      placeholder: role-client, role-node, role-serverpod, or role-sdk
     validations:
       required: true
 

@@ -8,7 +8,7 @@
 
 ## Scope
 
-- Repository: `role-client` / `role-node` / `role-serverpod`
+- Repository: `role-client` / `role-node` / `role-serverpod` / `role-sdk`
 - Type: `feature` / `fix` / `refactor` / `docs` / `chore`
 
 ## Validation

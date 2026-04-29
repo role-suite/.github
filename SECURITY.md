@@ -7,6 +7,7 @@ This policy covers repositories in the `role-suite` organization, including:
 - `role-client`
 - `role-node`
 - `role-serverpod`
+- `role-sdk`
 
 ## Reporting a vulnerability
 
@@ -18,6 +19,11 @@ Use GitHub Security Advisories in the affected repository:
 - `https://github.com/role-suite/role-client/security/advisories/new`
 - `https://github.com/role-suite/role-node/security/advisories/new`
 - `https://github.com/role-suite/role-serverpod/security/advisories/new`
+- `https://github.com/role-suite/role-sdk/security/advisories/new`
+
+If unsure where to report, use this repository:
+
+- `https://github.com/role-suite/.github/security/advisories/new`
 
 Include:
 
