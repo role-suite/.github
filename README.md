@@ -24,5 +24,3 @@ Current primary repositories:
 
 - `role-client`
 - `role-node`
-- `role-serverpod`
-- `role-sdk`
